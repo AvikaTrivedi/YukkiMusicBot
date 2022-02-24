@@ -33,7 +33,7 @@ MONGO_DB_URI = getenv("MONGO_DB_URI")
 ## PRIVATE START MESSAGE.. IMAGE
 # Please use telegraph link for this
 
-START_IMG_URL = getenv("START_IMG_URL", None)
+START_IMG_URL = getenv("START_IMG_URL", )
 
 # To work some Heroku compatible modules, this var value required to Access your account to use `get_log`, `usage`, `update` etc etc commands.
 # You can fill this var using your API key or Authorization token.
