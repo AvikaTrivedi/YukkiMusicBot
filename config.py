@@ -7,9 +7,6 @@ if os.path.exists("my.env"):
 else:
     load_dotenv()
 
-# VARS
-
-
 # Go to my.telegram.org then Enter your Phone Number with your country code.
 # After, you are logged in click on API Development Tools.
 # Enter Anything as App name and App short name, Enter my.telegram.org in url section
